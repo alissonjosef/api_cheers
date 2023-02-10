@@ -1,0 +1,11 @@
+
+
+Comando para inicializar o stripe a enviar para o endpoint da nossa API
+https://stripe.com/docs/stripe-cli
+
+
+stripe login --api-key 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
+
+stripe listen --forward-to https://api.cheersclube.com.br/paymentWebhook
+stripe listen --forward-to localhost:3000/paymentWebhook 
+
